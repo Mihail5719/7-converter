@@ -2,7 +2,8 @@ function convertCurrency(amount, fromCurrency, toCurrency) {
     const rates = {
         RUB: 92.50,
         USD: 1.00,
-        EUR: 0.92
+        EUR: 0.92,
+        CNY: 7.25
     };
 
     if (typeof amount !== 'number' || !Number.isFinite(amount) || amount < 0) {
