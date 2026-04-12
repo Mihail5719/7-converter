@@ -1,0 +1,13 @@
+# Резервные копии
+*.old
+backup/
+
+# Временные файлы
+Thumbs.db
+.DS_Store
+
+# Редакторы
+.vscode/
+
+# Личные заметки (не отправлять в GitHub)
+COMMENTS.md
